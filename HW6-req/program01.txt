@@ -1,0 +1,7 @@
+First, I open the file, filter out all spaces, and split with the symbol comma.
+Then, using the range function and its argument step, i split the lines in quintuplets, which represent buildings.
+After that, i draw single rows by using the quintuplets to get the dimensions of the buildings and append everything to the final matrix, row by row so i dont have to generate a black background beforehand.
+I treat spaces between buildings as if they were black buildings, so that i can use the general function that draws buildings to do everything.
+I find the y coordinates by iterating through the list of buildings and making a map with the maximum heights of each row.
+I find the x coordinates by adding the buildings in sequence, so i dont need an actual x coordinate.
+This algorithm is better than the rest because it doesnt overlap any black pixels, it generates everything only once.
