@@ -1,0 +1,1 @@
+{"profiledFunctions": [{"file": "C:/Users/fdimo/Desktop/HW2-req/program01.py", "lineNo": 138, "functionName": "ex", "profiledLines": [{"lineNo": 140, "hits": 1, "time": 11}, {"lineNo": 141, "hits": 1, "time": 50}, {"lineNo": 142, "hits": 1, "time": 5}, {"lineNo": 143, "hits": 1, "time": 22}]}], "unit": 1e-07}

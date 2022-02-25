@@ -1,0 +1,1 @@
+{"profiledFunctions": [{"file": "C:/Users/fdimo/Desktop/HW4-req/program01.py", "lineNo": 35, "functionName": "synchronizer", "profiledLines": [{"lineNo": 37, "hits": 272, "time": 12202}, {"lineNo": 38, "hits": 136, "time": 378}, {"lineNo": 39, "hits": 272, "time": 12134}, {"lineNo": 40, "hits": 136, "time": 666}, {"lineNo": 41, "hits": 136, "time": 387}]}], "unit": 1e-07}

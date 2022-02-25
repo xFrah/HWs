@@ -1,0 +1,13 @@
+For the purpose of using them in my algorithm, I define 5 fondamental funcions:
+- middle(): takes a list of integers as argument and finds the middle value.
+- fromFile(): reads a file given a path(or filename) and returns: a matrix containing binary lists as rows; the length of the longest row.
+- check(): takes as input a string and returns it without punctuation.
+- fWrite(): uses the maximum length to normalize all the rows, and writes the rows to a file using the specified name(or path).
+- sync(): takes as input two rows and synchronizes them, using a list of the indexes of where the 1s are positioned and a formatted matrix.
+
+First i call fromFile, i get the matrix and the length of the longest row.
+Then i call fWrite, which returns the formatted matrix(with added 0s at the end, and at the beginning for efficiency purposes #trust me bro, the 0s at the start arent printed in the file, so its correct) while writing the rows in a file.
+The third thing to do is to iterate through this formatted matrix and synchronize the rows with my function sync.
+In this function, sync, the only value I assign to a variable is m(the number of accents) and the number of conditions is minimized to 2 and a loop. I actually managed to do it using two functions of one line each.
+I use list slicing for returning a list of the preceding elements of the two lists.
+I put all the results of synchronizer in a list, thanks to a list comprehension, and I feed it to middle(), returning the middle value.
